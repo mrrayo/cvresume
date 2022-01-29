@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+/*Persian Fonts */
+@font-face {
+    font-family: IRANSans;
+    src: url('../fonts/IranSans/IRANSansWeb.ttf');
+    src: url('../fonts/IranSans/IRANSansWeb_Light.ttf');
+    src: url('../fonts/IranSans/IRANSansWeb_Medium.ttf');
+    src: url('../fonts/IranSans/IRANSansWeb_UltraLight.ttf');
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-weight: bold;
+    src: url('../fonts/IranSans/IRANSansWeb_Bold.ttf');
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-weight: 500;
+    src: url('../fonts/IranSans/IRANSansWeb_Medium.ttf');
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-weight: 400;
+    src: url('../fonts/IranSans/IRANSansWeb_Light.ttf');
+}
+
+:root {
+    /*--- Main Colors*/
+    --blu-color: #3490FB;
+    --pink-color: #FB5EC4;
+    --purple-color: #7C71F5;
+    --gray-dark: #343a40;
+
+
+    /*--- Main Persian Font*/
+    --main-pe-font: 'IRANSans', sans-serif;
+
+    /*--- Main English Font*/
+    --main-en-font: 'Lato', sans-serif;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'IRANSans', sans-serif;
+}
