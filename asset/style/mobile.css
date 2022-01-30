@@ -10,6 +10,39 @@
     .container {
         max-width: 960px;
     }
+
+    /*--- Burger Menu ---*/
+    .menu-area {
+        position: fixed;
+        top: 81px;
+        width: 100%;
+        background-image: linear-gradient(to left, #7C71F5, #3490FB);
+        transform: translateY(-1000px);
+        -webkit-transform: translateY(-1000px);
+        -moz-transform: translateY(-1000px);
+        -o-transform: translateY(-1000px);
+    }
+
+    .menu-area .nav-item {
+        display: block;
+        text-align: right;
+        padding: 1rem;
+    }
+
+    .menu-area .nav-link {
+        font-weight: 500;
+    }
+
+    .menu-area.active-menu {
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+
+    .burger {
+        display: block;
+    }
 }
 
 @media screen and (max-width:768px) {
