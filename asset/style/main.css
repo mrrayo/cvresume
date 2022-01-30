@@ -42,6 +42,15 @@
     --main-en-font: 'Lato', sans-serif;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
 .container {
     max-width: 1220px;
     margin: 0 auto;
@@ -53,4 +62,61 @@ html {
 
 body {
     font-family: 'IRANSans', sans-serif;
+}
+
+li,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+}
+
+
+/*navbar-area*/
+.navbar {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    width: 100%;
+    padding: 1rem;
+    background-image: linear-gradient(to left, #7C71F5, #3490FB);
+    box-shadow: 20px 1px 20px rgba(0, 0, 0, 0.308);
+}
+
+.navbar-area {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+
+.menu-area .nav-item {
+    display: inline;
+}
+
+.menu-area .nav-item {
+    padding: 0 1rem;
+}
+
+.menu-area .nav-link {
+    color: #fff;
+}
+
+.navbar-logo {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.navbar-btn {
+    background-color: #FB5EC4;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
 }
