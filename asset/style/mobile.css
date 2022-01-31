@@ -45,14 +45,18 @@
     }
 
     /*--- block section ---*/
+    .item {
+        padding: 50px;
+    }
+
     .item-side {
         flex: 1 1 100%;
     }
 
     .item-head-right {
         order: 1 !important;
-
     }
+
     .item-head-left {
         order: 2 !important;
         text-align: right;
