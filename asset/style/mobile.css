@@ -43,6 +43,20 @@
     .burger {
         display: block;
     }
+
+    /*--- block section ---*/
+    .item-side {
+        flex: 1 1 100%;
+    }
+
+    .item-head-right {
+        order: 1 !important;
+
+    }
+    .item-head-left {
+        order: 2 !important;
+        text-align: right;
+    }
 }
 
 @media screen and (max-width:768px) {
