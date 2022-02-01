@@ -136,6 +136,7 @@ a {
     padding: 1rem;
     background-image: linear-gradient(to left, #7C71F5, #3490FB);
     box-shadow: 20px 1px 20px rgba(0, 0, 0, 0.308);
+    z-index: 99;
 }
 
 .navbar-area {
@@ -355,4 +356,50 @@ a {
 
 .proccess-box {
     padding: 0.7rem 0;
+}
+
+
+/*--- Habbies section ---*/
+
+.block-para {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+/*--- Footer section ---*/
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45px 0;
+}
+
+.social-footer .nav-item {
+    display: inline;
+    margin: 0 0.5rem;
+}
+
+.social-footer .nav-link {
+    font-size: 14px;
+    color: #ffffff;
+    border: 1px solid;
+    opacity: 0.75;
+    border-radius: 50%;
+    width: 36px;
+    display: inline-block;
+    height: 36px;
+    text-align: center;
+    background-color: #c5c9d2;
+}
+
+.social-footer .nav-link:hover {
+    background-color: #a4a7ad;
+}
+
+.social-footer .nav-link .social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
